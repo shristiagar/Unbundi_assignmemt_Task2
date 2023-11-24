@@ -1,0 +1,54 @@
+.custom-pack {
+    width: 80%;
+    margin: auto;
+    
+  }
+  
+  .chocolates {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    color: white;
+  }
+  
+  .chocolates input[type="checkbox"] {
+    display: none;
+  }
+  
+  .chocolates label {
+    display: block;
+    width: 30%;
+    margin: 10px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .chocolates label:hover {
+    background-color: #ccc;
+  }
+  
+  .chocolates input[type="checkbox"]:checked + label {
+    background-color: #ccc;
+  }
+  
+  .total-price {
+    margin-top: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
